@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/contact-me",
+      "handler": "Contact.send"
+    }
+  ]
+}

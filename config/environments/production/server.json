@@ -1,0 +1,10 @@
+{
+  "host": "${process.env.APP_HOST || '0.0.0.0'}",
+  "port": "${process.env.NODE_PORT || 1337}",
+  "cron": {
+    "enabled": false
+  },
+  "admin": {
+    "host": "api.xnizstudio.com"
+  }
+}
